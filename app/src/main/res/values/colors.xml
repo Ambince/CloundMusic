@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#ff2d2d</color>
+    <color name="colorPrimaryDark">#ff2d3f</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--<color name="PrimaryColor">#ff2d2d</color>-->
+    <!--<color name="PrimaryDarkColor">#ff2d3f</color>-->
+    <!--<color name="AccentColor">#FF4081</color>-->
+
+
+    <color name="myPrimaryColor">#2196F3</color>
+    <color name="myPrimaryDarkColor">#1976D2</color>
+    <color name="myAccentColor">#FF4081</color>
+    <color name="myDrawerBackground">#FFF</color>
+    <color name="myWindowBackground">#FFF</color>
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myNavigationColor">#000</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="theme_color">#ff2d3f</color>
+    <color name="textColorWhite">#FFFFFF</color><!--白色字体颜色-->
+
+    <color name="selected_gray">#10000000</color>
+    <color name="gray">#4D000000</color>
+    <color name="textColorGray">#7f7f7f</color><!--字体颜色 -->
+
+
+
+    <drawable name="pressed_gray">#0c000000</drawable>
+    <drawable name="selected_gray">#2c000000</drawable>
+    <drawable name="gray">#4D000000</drawable>
+
+</resources>
