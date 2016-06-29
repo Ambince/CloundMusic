@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "NavigationIcon is click!", Toast.LENGTH_SHORT).show();
-
                 closeOrOpenDrawerLayout();
             }
         });
@@ -139,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            startActivity(new Intent(this, AboutActivity.class));
+            //startActivity(new Intent(this, AboutActivity.class));
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
