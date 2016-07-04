@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ParentViewPager viewpager;
     @Bind(R.id.toolbar)
     Toolbar toolbar;
-    @Bind(R.id.nav_view)
-    NavigationView navView;
+//    @Bind(R.id.nav_view)
+//    NavigationView navView;
     @Bind(R.id.drawer_layout)
     DrawerLayout drawerLayout;
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ButterKnife.bind(this);
         initToolBar();
 
-        navView.setNavigationItemSelectedListener(this);
+        //navView.setNavigationItemSelectedListener(this);
         tabLayout.setSelectedTabIndicatorColor(transparentColor);
         viewpager.setOffscreenPageLimit(3);
         viewpager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
