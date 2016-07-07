@@ -20,6 +20,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
+    
 
     <!--&lt;!&ndash;左侧滑菜单栏&ndash;&gt;-->
     <!--<include-->
